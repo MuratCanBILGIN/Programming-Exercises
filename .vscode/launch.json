@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Can/OneDrive/Masaüstü/Programlama Alıştırmalarım",
-      "program": "c:/Users/Can/OneDrive/Masaüstü/Programlama Alıştırmalarım/build/Debug/outDebug",
+      "cwd": "c:/Users/Can/OneDrive/Masaüstü/Programming Exercises",
+      "program": "c:/Users/Can/OneDrive/Masaüstü/Programming Exercises/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
