@@ -3,6 +3,8 @@
 //This Code Busted. Made this when i didnt know how switch-case worked. Chars dont work inside switch parameter control, only integer like number based
 //variables.
 
+wdasdasd
+
 int main()
 {
     char isim[50];
