@@ -4,6 +4,8 @@
 //variables.
 ,
 
+wdasdasd
+
 int main()
 {
     char isim[50];
