@@ -1,43 +1,69 @@
 #include <stdio.h>
 
-int toplam;
+   int toplam = 0;
 
-int tek_asal_mi(int n)
-{
+   int tutangac = 0;
 
-    int a;
-
-    if(n>100)
+   int asal_kontrol(int a)
     {
+        int i;
 
-        return toplam;
-    }
+        int asal_mi = 0;
 
-    for(a = 2; a < n; a++)
-    {
-
-        if(n % a == 0)
+        for(i = 2; i < a; i++)
         {
 
-            break;
+            if(a % i == 0)
+            {
 
+                asal_mi = 0;
+                break;
+            
+            }
+
+            asal_mi = 1;
         }
 
+        if(asal_mi == 1)
+        {
+
+        printf("%d\n", a);
+        return a;
+
+        }else
+        {
+
+        return 0;
+
+        }
     }
 
-    int toplam = tek_asal_mi(n+1);
 
-}
 
+
+    int toplama_fonksiyonu(int n)
+    {
+
+        tutangac = asal_kontrol(n);
+
+       
+
+        toplam = toplam + tutangac;
+
+        if(n==100)
+        {
+            
+            return toplam;
+        }
+
+        toplama_fonksiyonu(n+1);
+    }
 
 int main()
 {
 
-    int z;
-
-    z = tek_asal_mi(3);
-
-    printf("%d",toplam);
+    printf("%d", toplama_fonksiyonu(3));
+ 
 
     return 0;
 }

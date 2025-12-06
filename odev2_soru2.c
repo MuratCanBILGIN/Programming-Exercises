@@ -8,7 +8,7 @@ int main()
 
     // Kullanicidan alinan sayinin bolunebilme kurallarini kontrol etmek icin for dongusu kullandik
     // Dongu 2'den baslar ve girilen sayiya kadar bolunebilmeyi kontrol eder
-    // Eger bolunebilen bir sayi bulur ise sayi bolunebilme kontrol sayisini degistirir
+    // Eger bolunebilen bir sayi bulamaz ise sayi bolunebilme kontrol sayisini degistirir
     // Program dongu sonunda kontrol sayisina bagli olarak asal olup olmadigini yazar
 
     int bolunebilme_kontrol_sayisi;
@@ -21,20 +21,26 @@ int main()
     scanf("%d", &kullanicidan_alinan_sayi);
 
 
-for(bolunebilme_kontrol_sayisi = 2; 2 < kullanicidan_alinan_sayi ;bolunebilme_kontrol_sayisi++)
+
+    for(bolunebilme_kontrol_sayisi = 2; bolunebilme_kontrol_sayisi < kullanicidan_alinan_sayi ;bolunebilme_kontrol_sayisi++)
 {
 
   if(kullanicidan_alinan_sayi % bolunebilme_kontrol_sayisi == 0)
   {
 
-    int asal_sorgulama_degiskeni = 1;
+    asal_sorgulama_degiskeni = 0;
     break;
+
+  }else
+  {
+
+    asal_sorgulama_degiskeni = 1;
 
   }
 
 }
 
-if(asal_sorgulama_degiskeni == 1)
+if(asal_sorgulama_degiskeni == 1 || kullanicidan_alinan_sayi == 2)
 {
 
     printf("sayi asaldir");
