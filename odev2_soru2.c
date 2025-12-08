@@ -43,12 +43,12 @@ int main()
 if(asal_sorgulama_degiskeni == 1 || kullanicidan_alinan_sayi == 2)
 {
 
-    printf("sayi asaldir");
+    printf("Sayi asaldir");
     
 }else
 {
 
-   printf("sayi asal degildir");
+   printf("Sayi asal degildir");
 
 }
 
