@@ -24,7 +24,7 @@ int main()
     {                                                                                             //bulan for dongusu.
         if(kullanicinin_girdigi_sayi % pozitif_tam_bolen == 0)
         {
-
+        
             toplam = toplam + pozitif_tam_bolen;
 
         }
@@ -34,12 +34,12 @@ int main()
     if(toplam == kullanicinin_girdigi_sayi)//Kendisi haric pozitif tam bolenlerinin toplamini kaydeden 'toplam' isimli degiskene gore kullaniciya  
     {                                      //sayisinin mukemmel olup olmadigini soyleyen if/else yapisi.
 
-        printf("Girdiginiz sayi mukemmel bir sayidir.(  <3  )");
+        printf("Girdiginiz sayi mukemmel bir sayidir.  <3  ");
 
     }else
     {
 
-        printf("Girdiginiz sayi mukemmel bir sayi degildir.(  :(   )");
+        printf("Girdiginiz sayi mukemmel bir sayi degildir.  :(   ");
 
     }
 
