@@ -40,8 +40,8 @@ int main()
 
 }
 
-if(asal_sorgulama_degiskeni == 1 || kullanicidan_alinan_sayi == 2)
-{
+if(asal_sorgulama_degiskeni == 1 || kullanicidan_alinan_sayi == 2)//Eger kullanicinin girdigi sayi 2 ise ekrana direkt "Sayi asaldir" mesaji 
+{                                                                 //yazdirilir, boylece ozel bir durum olan 2 icin sistem karmasiklastirilmaz
 
     printf("Sayi asaldir");
     
