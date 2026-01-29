@@ -20,7 +20,7 @@ int main()
 
     }
 
-    printf("E(%.2lf) = %.2lf^4 + %.2lf^3 + %.2lf^2 + %.2lf^1 + 1 = %.2lf", x, x, x, x, x, toplam);
+    printf("E(%.2lf) = %.2lf^4 + %.2lf^3 + %.2lf^2 + %.2lf^1 + %.2lf^0 = %.2lf", x, x, x, x, x, x, toplam);
 
     return 0;
 }
