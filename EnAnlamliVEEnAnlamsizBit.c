@@ -5,6 +5,7 @@ typedef struct EnAnlamliVEEnAnlamsizBit
     unsigned int onaltilik: 16;
 }bit;
 
+
 void AksilikKontrol()
 {
     bit x;
