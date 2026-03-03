@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define Adres (*(volatile unsigned int*)0x3F800)
+//#define Adres (*(volatile unsigned int*)0x3F800) program işletim sisteminin istekleriyle çakışıyor
 
 typedef struct bitlikveri
 {
