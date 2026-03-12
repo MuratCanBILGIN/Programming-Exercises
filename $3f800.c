@@ -1,5 +1,5 @@
 #include <stdio.h>
-//#define Adres (*(volatile unsigned int*)0x3F800) program işletim sisteminin istekleriyle çakışıyor
+//#define Adres (*(volatile unsigned int*)0x3F800) program işletim sisteminin istekleriyle çakışıyor, programı değiştirmem gerekti
 
 typedef struct bitlikveri
 {
@@ -37,7 +37,7 @@ int main()
     (temiz |= (a.y << 1));
     (temiz |= (a.z << 2));
 
-    Adres = temiz;
+    unsigned char o = temiz;
 
     printf("\nSeri porta yazilan veri (Desimal): %u\n", temiz);
     printf("Seri porta yazilan veri (Binary): %u%u%u\n", a.z, a.y, a.x);

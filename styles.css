@@ -1,0 +1,32 @@
+body
+{
+    color: yellow;
+
+    background-color: black;
+
+    text-align: center;
+
+    background-image: url('C:/Users/Can/OneDrive/Masaüstü/WebSayfasi/images/yıldız.gif');
+
+    background-repeat: no-repeat;
+
+    /* Resmi ekranın tam ortasına hizalar */
+    background-position: center;
+
+    /* Resmi ekranın tamamını kaplayacak şekilde boyutlandırır */
+    background-size: cover;
+
+    /* Sayfa kaydırıldığında resmin sabit kalmasını sağlar (opsiyonel) */
+    background-attachment: fixed;
+}
+
+.kutu
+{
+  background-color:rgb(59, 59, 54);
+  color: yellow;
+  border: 0px solid black;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 605px;
+  margin-right: 605px;
+}
